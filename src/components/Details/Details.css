@@ -1,0 +1,135 @@
+.details-container {
+    border: 1px solid rgb(16, 32, 123);
+    width: 1400px;
+    height: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme {
+    border: 1px solid black;
+    /* padding: 14rem; */
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 10px rgb(67, 27, 27);
+    width: 1200px;
+    height: 900px;
+    color: black;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px; */
+}
+
+.first-details {
+    border: 1px solid rgb(205, 103, 103);
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    /* flex-direction: column; */
+    order: -1;
+    padding: 40px;
+    /* margin-right: 80px; */
+    flex: 1 0 200px;
+}
+
+.second-details {
+    border: 1px solid rgb(22, 11, 87);
+    height: fit-content;
+    width: fit-content;
+    padding-bottom: 40px;
+    /* word-break: break-word; */
+    /* white-space: pre-wrap; */
+    /* flex: 1 0 200px; */
+    font-size: 25px;
+
+}
+
+.first-details,
+.second-details {
+    margin: 10px;
+}
+
+.profile-details {
+    line-height: 2.5
+}
+
+.profile-details p {
+    font-size: 25px;
+}
+
+.resume-btn {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.resume-btn:hover {
+    background-color: rgb(73, 15, 15);
+    cursor: pointer;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.linkedin{
+    cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    .details-container {
+        width: 70%;
+        /* or any other smaller percentage */
+
+        /* right: 27px; */
+
+    }
+
+    .aboutme {
+        height: 1100px;
+    }
+
+    .first-details {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+    }
+
+
+    .second-details {
+        /* move this div to the right */
+
+    }
+
+    .profile-img {
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-details p {
+        font-size: 20px;
+    }
+
+    .profile-details>.linkedin {
+        display: inline-block;
+        max-width: 100%;
+        /* maximum width to fit parent container */
+        word-wrap: break-word;
+    }
+
+    .resume-btn {
+        background-color: white;
+        width: 200px;
+        height: 40px;
+        border-radius: 8px;
+    }
+}
