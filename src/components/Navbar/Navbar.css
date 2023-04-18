@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(216, 205, 255);
+    background-color: rgb(132, 140, 152);
     box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.5);
     padding: 1rem;
     position: fixed;
@@ -12,7 +12,7 @@
 }
 
 .header-bg {
-    background-color: rgba(48, 18, 18, 0.85);
+    background-color: rgba(187, 163, 163, 0.85);
     transition: 0.5s;
 }
 

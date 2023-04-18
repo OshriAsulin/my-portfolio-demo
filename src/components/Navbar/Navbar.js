@@ -29,12 +29,12 @@ const Navbar = () => {
 
   return (
     <div className={color ? 'header header-bg' : 'header'}>
-      <h3 className='name-portfolio'>Oshri Asulin Portfolio.</h3>
+      <h3 className='name-portfolio' onClick={(() => handleComponent('home'))}>Oshri Asulin Portfolio.</h3>
       <div >
         <ul className={click ? 'navbar' : 'navbar active'} id="navbar">
+          <li><a onClick={(() => handleComponent('about'))}>About</a></li>
           <li><a onClick={(() => handleComponent('projects'))}>Projects</a></li>
           <li><a onClick={(() => handleComponent('skills'))}>Skills</a></li>
-          <li><a onClick={(() => handleComponent('about'))}>About</a></li>
 
         </ul>
       </div>

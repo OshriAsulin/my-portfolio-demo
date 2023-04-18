@@ -6,7 +6,7 @@ import bgVid from '../../../assets/anlyzeBg.mp4'
 import Typewriter from "typewriter-effect";
 const Img = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='home'>
       <div className='mask'>
         {/* <img className='into-img' src={bgImg} alt="bgImg"/> */}
 
@@ -25,10 +25,10 @@ const Img = () => {
           // delay: 100
         }} />
        </div>
-        <div className='links'>
+        {/* <div className='links'>
           <a to='/' className='btn'>Projects</a>
           <a to='/contact' className='btn btn-light'>Contact</a>
-        </div>
+        </div> */}
       </div>
     </div>
   )

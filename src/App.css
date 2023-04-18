@@ -7,3 +7,12 @@
 .App{
   text-align: center;
 }
+.btn{
+  padding: 10px;
+  border:1px solid black;
+  border-radius: 19px;
+}
+
+.btn:hover{
+  background-color: rgb(0, 4, 255);
+}
